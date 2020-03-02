@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hybrid Framework Suite]">
+  <test name="Locateliveincidentmap(failed)">
+    <classes>
+      <class name="testcases.Locateliveincidentmap">
+        <methods>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="locateliveincidentmap"/>
+          <include name="endreport"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Locateliveincidentmap -->
+    </classes>
+  </test> <!-- Locateliveincidentmap(failed) -->
+</suite> <!-- Failed suite [Hybrid Framework Suite] -->

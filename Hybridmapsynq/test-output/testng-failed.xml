@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="LoginApplication(failed)">
+    <classes>
+      <class name="testcases.LoginApplication">
+        <methods>
+          <include name="loginApplication" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="endreport"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.LoginApplication -->
+    </classes>
+  </test> <!-- LoginApplication(failed) -->
+  <test name="Registrationform(failed)">
+    <classes>
+      <class name="testcases.Registrationform">
+        <methods>
+          <include name="registrationform" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="setExtent"/>
+          <include name="endreport"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Registrationform -->
+    </classes>
+  </test> <!-- Registrationform(failed) -->
+</suite> <!-- Failed suite [Suite] -->

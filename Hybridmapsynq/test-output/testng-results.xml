@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="9" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_08_IST_2020.jpg>Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_08_IST_2020.jpg><img src=Mon_Mar_02_08_48_08_IST_2020.jpg height=200 width=300></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_22_IST_2020.jpg>Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_22_IST_2020.jpg><img src=Mon_Mar_02_08_48_22_IST_2020.jpg height=200 width=300></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_43_IST_2020.jpg>Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_43_IST_2020.jpg><img src=Mon_Mar_02_08_48_43_IST_2020.jpg height=200 width=300></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_04_IST_2020.jpg>Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_04_IST_2020.jpg><img src=Mon_Mar_02_08_49_04_IST_2020.jpg height=200 width=300></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_26_IST_2020.jpg>Capture Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_26_IST_2020.jpg><img src=Mon_Mar_02_08_49_26_IST_2020.jpg height=200 width=300></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="106731" started-at="2020-03-02T03:17:39Z" finished-at="2020-03-02T03:19:26Z">
+    <groups>
+    </groups>
+    <test name="forgotpassword" duration-ms="8299" started-at="2020-03-02T03:17:39Z" finished-at="2020-03-02T03:17:47Z">
+      <class name="testcases.Forgotpassword">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcases.Forgotpassword@54422e18]" name="setExtent" is-config="true" duration-ms="446" started-at="2020-03-02T08:47:39Z" finished-at="2020-03-02T08:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Forgotpassword@54422e18]" name="login" is-config="true" duration-ms="4967" started-at="2020-03-02T08:47:40Z" finished-at="2020-03-02T08:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="forgotpassword(java.lang.String)[pri:0, instance:testcases.Forgotpassword@54422e18]" name="forgotpassword" duration-ms="2829" started-at="2020-03-02T08:47:45Z" data-provider="getData" finished-at="2020-03-02T08:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userpswd@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotpassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Forgotpassword@54422e18]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-03-02T08:47:47Z" finished-at="2020-03-02T08:47:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgotpassword status=SUCCESS method=Forgotpassword.forgotpassword(java.lang.String)[pri:0, instance:testcases.Forgotpassword@54422e18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Forgotpassword -->
+    </test> <!-- forgotpassword -->
+    <test name="Locateliveincidentmap" duration-ms="9007" started-at="2020-03-02T03:17:47Z" finished-at="2020-03-02T03:17:56Z">
+      <class name="testcases.Locateliveincidentmap">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcases.Locateliveincidentmap@4b29d1d2]" name="setExtent" is-config="true" duration-ms="78" started-at="2020-03-02T08:47:47Z" finished-at="2020-03-02T08:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Locateliveincidentmap@4b29d1d2]" name="login" is-config="true" duration-ms="1374" started-at="2020-03-02T08:47:48Z" finished-at="2020-03-02T08:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="locateliveincidentmap(java.lang.String)[pri:0, instance:testcases.Locateliveincidentmap@4b29d1d2]" name="locateliveincidentmap" duration-ms="7550" started-at="2020-03-02T08:47:49Z" data-provider="getData" finished-at="2020-03-02T08:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateliveincidentmap -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Locateliveincidentmap@4b29d1d2]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-02T08:47:56Z" finished-at="2020-03-02T08:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=locateliveincidentmap status=SUCCESS method=Locateliveincidentmap.locateliveincidentmap(java.lang.String)[pri:0, instance:testcases.Locateliveincidentmap@4b29d1d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Locateliveincidentmap -->
+    </test> <!-- Locateliveincidentmap -->
+    <test name="Mandatory" duration-ms="3977" started-at="2020-03-02T03:17:57Z" finished-at="2020-03-02T03:18:00Z">
+      <class name="testcases.Mandatory">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcases.Mandatory@3f191845]" name="setExtent" is-config="true" duration-ms="62" started-at="2020-03-02T08:47:57Z" finished-at="2020-03-02T08:47:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Mandatory@3f191845]" name="login" is-config="true" duration-ms="1449" started-at="2020-03-02T08:47:57Z" finished-at="2020-03-02T08:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="mandatory(java.lang.String)[pri:0, instance:testcases.Mandatory@3f191845]" name="mandatory" duration-ms="2447" started-at="2020-03-02T08:47:58Z" data-provider="getData" finished-at="2020-03-02T08:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Please enter route Start and Destination.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatory -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Mandatory@3f191845]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-03-02T08:48:00Z" finished-at="2020-03-02T08:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mandatory status=SUCCESS method=Mandatory.mandatory(java.lang.String)[pri:0, instance:testcases.Mandatory@3f191845] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Mandatory -->
+    </test> <!-- Mandatory -->
+    <test name="Loginverification" duration-ms="4843" started-at="2020-03-02T03:18:00Z" finished-at="2020-03-02T03:18:05Z">
+      <class name="testcases.Loginverification">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcases.Loginverification@8458f04]" name="setExtent" is-config="true" duration-ms="61" started-at="2020-03-02T08:48:00Z" finished-at="2020-03-02T08:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Loginverification@8458f04]" name="login" is-config="true" duration-ms="1403" started-at="2020-03-02T08:48:01Z" finished-at="2020-03-02T08:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginverification(java.lang.String, java.lang.String)[pri:0, instance:testcases.Loginverification@8458f04]" name="loginverification" duration-ms="3375" started-at="2020-03-02T08:48:02Z" data-provider="getData" finished-at="2020-03-02T08:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usermail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userpsw@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginverification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Loginverification@8458f04]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-02T08:48:05Z" finished-at="2020-03-02T08:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginverification status=SUCCESS method=Loginverification.loginverification(java.lang.String, java.lang.String)[pri:0, instance:testcases.Loginverification@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Loginverification -->
+    </test> <!-- Loginverification -->
+    <test name="LoginApplication" duration-ms="3265" started-at="2020-03-02T03:18:05Z" finished-at="2020-03-02T03:18:09Z">
+      <class name="testcases.LoginApplication">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcases.LoginApplication@645aa696]" name="setExtent" is-config="true" duration-ms="30" started-at="2020-03-02T08:48:05Z" finished-at="2020-03-02T08:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.LoginApplication@645aa696]" name="login" is-config="true" duration-ms="1307" started-at="2020-03-02T08:48:05Z" finished-at="2020-03-02T08:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="loginApplication(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginApplication@645aa696]" name="loginApplication" duration-ms="1" started-at="2020-03-02T08:48:07Z" data-provider="getData" finished-at="2020-03-02T08:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr150911]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AnYnApa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Cannot find elements when the XPath expression is null.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+	at org.openqa.selenium.By.xpath(By.java:113)
+	at base.TestBase.type(TestBase.java:151)
+	at testcases.LoginApplication.loginApplication(LoginApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_08_IST_2020.jpg>Capture Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_08_IST_2020.jpg><img src=Mon_Mar_02_08_48_08_IST_2020.jpg height=200 width=300></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.LoginApplication@645aa696]" name="tearDown" is-config="true" duration-ms="793" started-at="2020-03-02T08:48:08Z" finished-at="2020-03-02T08:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApplication status=FAILURE method=LoginApplication.loginApplication(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginApplication@645aa696] output=<a target="_blank" href=Mon_Mar_02_08_48_08_IST_2020.jpg>Capture Screenshot</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginApplication -->
+    </test> <!-- LoginApplication -->
+    <test name="Registrationform" duration-ms="77237" started-at="2020-03-02T03:18:09Z" finished-at="2020-03-02T03:19:26Z">
+      <class name="testcases.Registrationform">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.Registrationform@5032714f]" name="setUp" is-config="true" duration-ms="3437" started-at="2020-03-02T08:47:36Z" finished-at="2020-03-02T08:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcases.Registrationform@5032714f]" name="setExtent" is-config="true" duration-ms="32" started-at="2020-03-02T08:48:09Z" finished-at="2020-03-02T08:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Registrationform@5032714f]" name="login" is-config="true" duration-ms="1359" started-at="2020-03-02T08:48:09Z" finished-at="2020-03-02T08:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f]" name="registrationform" duration-ms="11189" started-at="2020-03-02T08:48:10Z" data-provider="getData" finished-at="2020-03-02T08:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sudipuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dutta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Address1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9051406767]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[24-02-1990]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[usermail710@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[dutsudi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[alokRanjan]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[alokRanjan]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidElementStateException">
+            <message>
+              <![CDATA[invalid element state
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54531}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\SUDIPD~1\AppData\Local\Temp\scoped_dir12496_6318}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.122, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d81964c0ca29ccaeeee7c6d16180ee81]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:54531}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\SUDIPD~1\AppData\Local\Temp\scoped_dir12496_6318}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.122, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d81964c0ca29ccaeeee7c6d16180ee81
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
+	at base.TestBase.type(TestBase.java:151)
+	at testcases.Registrationform.registrationform(Registrationform.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_22_IST_2020.jpg>Capture Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_22_IST_2020.jpg><img src=Mon_Mar_02_08_48_22_IST_2020.jpg height=200 width=300></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registrationform -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Registrationform@5032714f]" name="tearDown" is-config="true" duration-ms="400" started-at="2020-03-02T08:48:22Z" finished-at="2020-03-02T08:48:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationform status=FAILURE method=Registrationform.registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f] output=<a target="_blank" href=Mon_Mar_02_08_48_22_IST_2020.jpg>Capture Screenshot</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Registrationform@5032714f]" name="login" is-config="true" duration-ms="1602" started-at="2020-03-02T08:48:22Z" finished-at="2020-03-02T08:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f]" name="registrationform" duration-ms="19013" started-at="2020-03-02T08:48:24Z" data-provider="getData" finished-at="2020-03-02T08:48:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at base.TestBase.select(TestBase.java:167)
+	at testcases.Registrationform.registrationform(Registrationform.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_43_IST_2020.jpg>Capture Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_48_43_IST_2020.jpg><img src=Mon_Mar_02_08_48_43_IST_2020.jpg height=200 width=300></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registrationform -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Registrationform@5032714f]" name="tearDown" is-config="true" duration-ms="348" started-at="2020-03-02T08:48:43Z" finished-at="2020-03-02T08:48:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationform status=FAILURE method=Registrationform.registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f] output=<a target="_blank" href=Mon_Mar_02_08_48_43_IST_2020.jpg>Capture Screenshot</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Registrationform@5032714f]" name="login" is-config="true" duration-ms="1398" started-at="2020-03-02T08:48:43Z" finished-at="2020-03-02T08:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f]" name="registrationform" duration-ms="19198" started-at="2020-03-02T08:48:45Z" data-provider="getData" finished-at="2020-03-02T08:49:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at base.TestBase.select(TestBase.java:167)
+	at testcases.Registrationform.registrationform(Registrationform.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_04_IST_2020.jpg>Capture Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_04_IST_2020.jpg><img src=Mon_Mar_02_08_49_04_IST_2020.jpg height=200 width=300></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registrationform -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Registrationform@5032714f]" name="tearDown" is-config="true" duration-ms="356" started-at="2020-03-02T08:49:04Z" finished-at="2020-03-02T08:49:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationform status=FAILURE method=Registrationform.registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f] output=<a target="_blank" href=Mon_Mar_02_08_49_04_IST_2020.jpg>Capture Screenshot</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.Registrationform@5032714f]" name="login" is-config="true" duration-ms="1340" started-at="2020-03-02T08:49:05Z" finished-at="2020-03-02T08:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f]" name="registrationform" duration-ms="19137" started-at="2020-03-02T08:49:06Z" data-provider="getData" finished-at="2020-03-02T08:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-R9EM6AG', ip: '192.168.0.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at base.TestBase.select(TestBase.java:167)
+	at testcases.Registrationform.registrationform(Registrationform.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_26_IST_2020.jpg>Capture Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Mon_Mar_02_08_49_26_IST_2020.jpg><img src=Mon_Mar_02_08_49_26_IST_2020.jpg height=200 width=300></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registrationform -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Registrationform@5032714f]" name="tearDown" is-config="true" duration-ms="347" started-at="2020-03-02T08:49:26Z" finished-at="2020-03-02T08:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationform status=FAILURE method=Registrationform.registrationform(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Registrationform@5032714f] output=<a target="_blank" href=Mon_Mar_02_08_49_26_IST_2020.jpg>Capture Screenshot</a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:testcases.Registrationform@5032714f]" name="endreport" is-config="true" duration-ms="1552" started-at="2020-03-02T08:49:26Z" finished-at="2020-03-02T08:49:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- testcases.Registrationform -->
+    </test> <!-- Registrationform -->
+  </suite> <!-- Suite -->
+</testng-results>
